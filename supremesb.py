@@ -2159,6 +2159,12 @@ class SupremeBot(commands.Bot):
                 (".stopmulticount", "", "Stop all multicount", "purple"),
                 (".multistream", "s,u,p,r,e,m,e", "Multiple streams at once", "purple"),
                 (".stopmultistream", "", "Stop multi-streaming", "purple"),
+
+                # PAGE 16 - PURPLE (multi cmd 2)
+                (".channel", "<channel_id_of_gc>", "save the channel for restarting", "white"),
+                (".save", "<full_cmd_to_save>", "save commands for restart", "white"),
+                (".restartstatus", "", "check the status of selfbot", "white"),
+                (".restartclear", "", "clear the current command to restart", "white"),
             ]
             
             per_page = 4
